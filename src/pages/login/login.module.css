@@ -11,7 +11,30 @@
     display: flex;
 }
 
-#imagem_login {
+.campo_login {
+    width: 60vw;
     display: flex;
-    align-items: baseline;
+    flex-direction: column;
+    box-shadow: 0 0 5px var(--cinza);
+    justify-content: center;
+}
+
+.campo_form {
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+
+.campo_form input {
+    background-color: var(--cinza);
+    border-radius: 10px;
+    height: 4vh;
+    padding: 5px;
+}
+
+#btn_entrar{
+    display: flex;
+    align-self: center;
 }

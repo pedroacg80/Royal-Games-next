@@ -1,0 +1,40 @@
+#banner {
+    background-color: var(--fundo-azulado);
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#informacoes {
+    margin: 50px;
+    font-size: 30;
+    color: var(--branco);
+    width: 60%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.catalogo {
+    background-color: var(--fundo-azulado);
+    color: var(--branco);
+}
+
+#informacoes_catalogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#informacoes_catalogo hr{
+    height: 2px;
+    width: 20%;
+    border: solid 1px var(--vermelho);
+    margin-bottom: 5vh;
+    margin-top: 1vh;
+}

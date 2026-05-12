@@ -1,0 +1,28 @@
+.botoes_filtro {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+#pesquisar input {
+    width: 40vh;
+    height: 4vh;
+    background-color: var(--cinza);
+}
+
+.botaoPreco {
+    width: 10vw;
+    height: 4vh;
+    background-color: var(--cinza);
+}
+
+#categorias {
+    background-color: var(--cinza);
+    width: 10vw;
+    height: 4vh;
+}
+
+#filtros {
+    display: flex;
+    gap: 30px;
+}

@@ -17,13 +17,14 @@
 #nav_menu {
     display: flex;
     width: 30%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
 #nav_menu a {
     color: var(--branco);
     text-decoration: none;
+    font-size: 20;
 }
 
 #botao_login {
