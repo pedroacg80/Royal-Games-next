@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <>
             <Header />
-            <main>
+            <main id={styles.main}>
                 <section id={styles.banner}>
                     <div id={styles.container}>
                         <div id={styles.informacoes}>
@@ -19,10 +19,23 @@ const Home = () => {
                 </section>
                 <section className={styles.catalogo}>
                     <div id={styles.informacoes_catalogo}>
-                        <h2>Catálogo de jogos</h2>
-                        <hr />
-                        <ListaJogo/>
+                        <div id={styles.campo_catalogo}>
+                            <h2>Catálogo de jogos</h2>
+                            <hr />
+                        </div>
+                        <ListaJogo />
                     </div>
+                </section>
+                <section className={styles.comportamento}>
+                    <div id={styles.campo_titulo}>
+                        <h2>Jogos online podem afetar o comportamento humano?</h2>
+                        <hr />
+                    </div>
+                    <aside id={styles.area_imagem}>
+                        <img src="../imgs/imagemLOL.png" alt="" />
+                        <img src="../imgs/imagemCs.png" alt="" />
+                    </aside>
+                    <p id={styles.texto_comportamento}>Estudos indicam que jogos podem alterar o comportamento humano... <br /> Principalmente quando o time resolve testar sua paciência em plena partida ranqueada.</p>
                 </section>
             </main>
             <Footer />
