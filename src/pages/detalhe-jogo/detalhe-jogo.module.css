@@ -1,0 +1,63 @@
+.main {
+    background-color: var(--fundo-azulado);
+    color: var(--branco);
+}
+
+#card_jogo {
+    background: linear-gradient(180deg, rgba(34, 28, 45, 1) 10%, rgba(82, 59, 255, 0.50) 50%, rgba(34, 28, 45, 1) 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#card_jogo hr {
+    height: 2px;
+    width: 20%;
+    border: solid 1px var(--vermelho);
+    margin-bottom: 5vh;
+    margin-top: 1vh;
+}
+
+#jogo {
+    box-shadow: 0 0 5px var(--cinza);
+    width: 90%;
+    height: 70vh;
+    font-size: 1.3rem;
+}
+
+#lado_cima {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10vh;
+    gap: 30px;
+    padding: 20px;
+}
+
+#lado_cima img {
+    width: 600px;
+}
+
+#sobre_jogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info_jogo {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    height: 10vh;
+}
+
+#lado_esquerdo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#lado_direito {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

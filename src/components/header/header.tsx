@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <header className={styles.header}>
             <div className={styles.container}>
-                <img src="../imgs/logo_royalGames.png" alt="logo Roayal Games" />
+               <a href="/home"><img src="../imgs/logo_royalGames.png" alt="logo Roayal Games" /></a>
                 <nav id={styles.nav_menu}>
                     <a href="">Catálogo</a>
                     <Link href="/login" id={styles.botao_login}>Login</Link>

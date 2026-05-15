@@ -1,4 +1,6 @@
 import styles from "@/components/lista-jogo/lista-jogo.module.css";
+import { Interface } from "readline";
+import CardJogo from "../card-jogo/card-jogo";
 
 const ListaJogo = () => {
     return (
@@ -19,6 +21,14 @@ const ListaJogo = () => {
                         </select>
                     </div>
                 </div>
+            </div>
+            <div className={styles.cards_jogo}>
+                <CardJogo/>
+                <CardJogo/>
+                <CardJogo/>
+                <CardJogo/>
+                <CardJogo/>
+                <CardJogo/>
             </div>
         </>
     )

@@ -36,7 +36,7 @@ const Home = () => {
                         <img src="../imgs/imagemCs.png" alt="" />
                     </aside>
                     <p id={styles.texto_comportamento}>Estudos indicam que jogos podem alterar o comportamento humano... <br /> Principalmente quando o time resolve testar sua paciência em plena partida ranqueada.</p>
-                </section>
+                </section >
             </main>
             <Footer />
         </>

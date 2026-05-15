@@ -6,7 +6,7 @@
 #banner {
     background-color: var(--fundo-azulado);
     background: linear-gradient(180deg, rgba(34, 28, 45, 1) 19%, rgba(82, 59, 255, 0.27) 50%, rgba(34, 28, 45, 1) 82%);
-    height: 100vh;
+    height: 80vh;
 }
 
 #container {
@@ -51,7 +51,7 @@
     height: 2px;
     width: 20%;
     border: solid 1px var(--vermelho);
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
     margin-top: 1vh;
 }
 
@@ -67,7 +67,7 @@
 
 .comportamento {
     background: #523BFF;
-    background: radial-gradient(circle, rgba(82, 59, 255, 0.57) 0%, rgba(57, 43, 147, 1) 19%, rgba(34, 28, 45, 1) 38%);
+    background: radial-gradient(circle, rgba(82, 59, 255, 0.57) 2%, rgba(57, 43, 147, 1) 12%, rgba(34, 28, 45, 1) 24%);
     color: var(--branco);
     display: flex;
     flex-direction: column;
@@ -83,7 +83,7 @@
 }
 
 #area_imagem {
-    box-shadow: 0 0 5px var(--cinza);
+   
     width: 70%;
     height: 40vh;
     padding: 30px;

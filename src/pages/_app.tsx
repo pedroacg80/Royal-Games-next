@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { Orbitron } from "next/font/google";
+import { ToastContainer } from "react-toastify";
 
 const orbitron = Orbitron({
   variable: "--font-padrao",
@@ -12,6 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <main className={orbitron.variable}>
       <Component {...pageProps} />
+      <ToastContainer/>
     </main>
   )
 }

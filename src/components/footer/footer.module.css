@@ -1,5 +1,7 @@
 .footer{
-    background-color: var(--fundo-azulado);
+    /* background-color:  rgb(33, 27, 44, 0.3); */
+    background: #523BFF;
+    background: linear-gradient(360deg, rgba(82, 59, 255, 0.57) 0%, rgba(57, 43, 147, 1) 0%, rgba(34, 28, 45, 1) 0%);
     height: 15vh;
     display: flex;
     align-items: center;

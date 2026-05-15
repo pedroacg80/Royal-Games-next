@@ -58,3 +58,8 @@
     color: var(--branco);
     border: solid 2px var(--vermelho);
 }
+
+#btn_entrar:hover {
+  background-color: var(--vermelho);
+  color: var(--branco); 
+}

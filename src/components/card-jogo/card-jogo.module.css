@@ -1,0 +1,23 @@
+.card_jogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 5px var(--cinza);
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+}
+#link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#btn_detalhes {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    height: 5vh;
+    width: 70%;
+    border-radius: 10px;
+}
